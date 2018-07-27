@@ -40,14 +40,25 @@ body {
     height: 200px;
     width: 200px;
     background-color: #ebebeb;
+    margin-left: 56px;
 
 }
 
 #article{
-    background-color: #ebebeb
-
+    background-color: #ebebeb;
+    margin-left: 8px;
 }
 
 .clear{
     clear:both;
 }
+
+article {
+    background: #777;
+    color: #ebebeb;
+    }
+
+.div{
+    margin: 0 auto;
+    width: 960px;
+    height: 350px;}
