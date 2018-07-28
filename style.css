@@ -3,62 +3,75 @@ body {
     font-size: 18px;
     width: 960px;
     background-color: #777;
+    margin-left: 198px;
 }
 
 #header{
     background-color: #ebebeb;
     text-align: center;
     height: 50px;
-    width: 495px;
+    width: 960;
+    margin-bottom: 8px;
 }
 
 #nav{
     background-color: #ebebeb;
     text-align: center;
     height: 50px;
-    width: 495px;
-}
-
-#aside{
-    float: left;
-    height: 200px;
-    width: 200px;
-    background-color: #ebebeb;
-}
-
-#footer{
-    background-color: #ebebeb;
-    text-align: center;
-    height: 50px;
-    width: 495px;
-    clear:both;
-    margin-top:10px;
+    width: 960px;
+    margin-bottom: 8px;
 }
 
 #section{
     float: left;
     height: 200px;
-    width: 200px;
+    width: 470px;
     background-color: #ebebeb;
-    margin-left: 56px;
-
+    text-align: center;
 }
 
-#article{
+
+
+#aside{
+    float: right;
+    height: 200px;
+    width: 480px;
     background-color: #ebebeb;
-    margin-left: 8px;
+    text-align: center;
 }
 
 .clear{
     clear:both;
 }
 
+#footer{
+    background-color: #ebebeb;
+    text-align: center;
+    height: 50px;
+    width: 960px;
+    clear:both;
+    margin-top:10px;
+}
+
+
 article {
     background: #777;
     color: #ebebeb;
-    }
+    widows: 495px;
+    height: 120px;
+    margin-top: 41px;
+    margin-left: 11px;
+    margin-right: 11px;
+ }
 
 .div{
     margin: 0 auto;
     width: 960px;
-    height: 350px;}
+    height:10px}
+
+p{
+    color:#777;
+    background: #ebebeb;
+    margin-left: 6px;
+    margin-right: 6px;
+}
